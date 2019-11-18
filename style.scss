@@ -194,3 +194,24 @@ label {
     -webkit-filter: grayscale(100%); /*для safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
+.authorize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: calc(60% - 300px);
+    top: calc(50% - 100px);
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    border: solid 2px rgb(128, 128, 128);
+    font-size: 3rem;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.5);
+
+    &:hover{
+        background-color: rgb(128, 128, 128);
+    }
+}

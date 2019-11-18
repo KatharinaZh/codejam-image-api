@@ -1,88 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Piskel</title>
-        <link rel="stylesheet" href="./normalize.css">
-        <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.11.2-web/fontawesome-free-5.11.2-web/css/all.min.css">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="wrapper">
-        <header class="header"> 
-            <nav class="navbar">
-                <div class="burger_menu">
-                    <i class="fas fa-bars burger_menu--item"></i>
-                </div>
-                <ul class="navbar--list">
-                    <li class="navbar--item"></li>
-                    <li class="navbar--item"></li>
-                    <li class="navbar--item"></li>
-                    <li class="navbar--item"></li>
-                </ul>
-            </nav>
-            <div>
-                <h1 class="header--h1">CodeJam-Palette</h1>
-            </div>
-        </header>
-        <main class="main">
-
-            <section class="panel_section--left">
-                <div class="settings_panel" id="settings_panel">
-                    <div class="settings_panel--item fill_bucket" id="fill_bucket"><i class="fas fa-fill-drip"></i><p>Fill bucket</p></div>
-                    <div class="settings_panel--item pipette" id="pipette"><i class="fas fa-eye-dropper"></i><p>Choose color</p></div>
-                    <div class="settings_panel--item pencil active_tool" id="pencil"><i class="fas fa-pencil-alt"></i><p>Pencil</p></div>
-                    <div class="settings_panel--item transform" id="transform"><i class="fas fa-exchange-alt"></i><p>Transform</p></div>
-                    <div class="settings_panel--item move" id="move"><i class="fas fa-arrows-alt"></i><p>Move</p></div>
-                </div>
-
-
-                <div class="color_panel">
-                    <div class="color_panel--item">
-                        <input type="color" id="current_color" name="head">
-                        <label for="current_color" class="color_panel--label">Current color</label>
-                    </div>
-                    <div class="color_panel--item">
-                        <input type="color" id="prev_color" name="head">
-                        <label for="prev_color" class="color_panel--label">Previous color</label>
-                    </div>
-                    <hr>
-                    <div class="color_panel--item">
-                        <input type="color" id="red_color" name="head" value="#ff0000">
-                        <label for="red_color" class="color_panel--label">Red</label>
-                    </div>
-                    <div class="color_panel--item">
-                        <input type="color" id="blue_color" name="head" value="#00BCD4">
-                        <label for="blue_color" class="color_panel--label">Blue</label>
-                    </div>                    
-                </div>
-            </section>
-
-
-            <section class="working_space">
-                <div class="working_space--button_panel">
-                    <input type="search" name="searchPic" id="searchPic" value="Minsk">
-                    <input type="button" name="loadPic" id="loadPic" value="Load">
-                    <input type="button" name="makeBW" id="makeBW" class="makeBW" value="B&W">
-                </div>
-                <canvas class="canvas_section active_pencil" id="canvas" width="512" height="512">Your browser doesn't support canvas. Sorry :(</canvas>
-                <div id="color"></div>
-            </section>
-
-
-            <section class="panel_section--right">
-                <div class="size_panel">
-                    <div class="size_panel--item" id="first"><div class="square"></div><p>128x128</p></div>
-                    <div class="size_panel--item" id="second"><div class="square"></div><p>256x256</p></div>
-                    <div class="size_panel--item" id="third"><div class="square"></div><p>512x512</p></div>
-                </div>
-            </section>
-        </main>
-    </div> 
-    <!-- wrapper -->
-    <script src="./src/index.js"></script>    
-
-    </body>
-</html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Authorize</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a class="authorize" href="https://github.com/login/oauth/authorize?client_id=7fd35d1eb1fad6b1c417&redirect_uri= https://katharinazh-image-api.netlify.com/">Authorize</a>
+</body>
+</html>
